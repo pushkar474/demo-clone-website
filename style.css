@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+
+/* navbar start*/
+#home{
+    position: sticky;
+    top: 0;
+    z-index: 100;   
+    
+}
+nav .logo{
+    font-size: 1.5rem;
+    transition: all 1.5s ease;
+    color: white;
+   
+}
+#q-design{
+    color: #a517ba;
+    animation: q 1.5s ease infinite;
+    font-style: bold;
+}
+@keyframes q {
+    0% {color: red;}
+    50%{color: salmon;}
+    75%{color: white;}
+    100%{color: blue;}
+}
+
+ul li{
+    padding:0 5px ;
+}
+ul li a{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+ul li a:hover{
+    color:#a517ba ;
+    text-shadow: 3px 5px 5px ;
+}
+/* navbar end*/
+
+/* banner design start */
+.banner{
+    color: #a517ba;
+}
+
+.banner .tittle{
+    padding-top: 10%;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.banner .p1{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+
+}
+.banner .p2{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+.background{
+    background-image:linear-gradient(rgba(255,255,255,.6),rgba(0,0,0,.9)), url(img/img3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.banner-icon{
+    font-size: 1.2rem;
+    margin-top: 15px;  
+   
+}
+.banner-icon a{
+    
+    width: 100px;
+    height: 100px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+    border-radius: 50% ;
+    margin: 5px 3px;
+    color: white;
+    
+    
+}
+.banner-icon a:hover #facebook{
+    transform: scale(1.5);
+    background-color:blue;
+    
+    border-radius: 50%;
+    font-size: 30px;
+   
+}
+.banner-icon a:hover #twitter{
+    transform: scale(1.5);
+    background-color:rgb(118, 161, 226);
+    border-radius: 50%;
+    font-size: 30px;
+}
+.banner-icon a:hover #google{
+        transform: scale(1.5);
+        background-color:red;
+        border-radius: 50%;
+        font-size: 30px;
+    }
+.banner-icon a:hover #instagram{
+            transform: scale(1.5);
+            background-color:rgb(223, 37, 182);
+            border-radius: 50%;
+            font-size: 30px;
+}
+
+/* banner design end */
+
+/* contact form design start */
+.form-bg{
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    color: white;
+
+}
+.input-box{
+    background: transparent;
+    border: hidden;
+    border-bottom: dashed;
+    border-color:darkgrey;
+    color: white;
+
+}
+/* contact form design end */
+
+/* footer design start */
+.footer {
+    background-color: black;
+    height: 80px;
+    
+}
+.footer a {
+    color: white;
+    font-size: 1.2rem;  
+    transition: all 1s ease ;  
+    
+}
+.footer a :hover{
+    background-color: red;
+    transform: translateY(-10px);
+}
+
+.footer .home-icon{
+    
+    color:white;
+    float: right;
+    
+    font-size: 2rem;
+}
+/* footer design end */
+
+/* video design start */
+.img-hover .img{
+    border: 2px solid red;
+}
+
+.img-hover{
+    overflow: hidden;
+}
+iframe{
+    position: relative;
+    transition: all .5s ease;
+}
+.img-hover:hover iframe {
+    transform: scale(1.5);
+    border: 2px solid red;
+
+}
+/* video design end */
